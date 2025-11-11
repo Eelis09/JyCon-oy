@@ -17,10 +17,11 @@ h2, p {
 }
 
 .title {
-    position: fixed;
+    -webkit-text-stroke: 2px #FF6600;
+    position: absolute;
     left: 0;
     padding-left: 25px;
-    font-size: 275%;
+    font-size: 290%;
     margin-top: 10px;
 }
 
@@ -32,9 +33,6 @@ ul {
   display: flex;
   justify-content: center;
   overflow: hidden;
-}
-h1 {
-    text-shadow: 2px 2px 4px #FF6600;
 }
 
 ul li a {
@@ -56,14 +54,99 @@ ul li a:active {
 body {
     background-image: url('d078968bc905921e539a6f954e1e2ca1.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-size: 100% 100%;
+    /* background-attachment: fixed; */
+    background-size: 1600px 620px;
+}
+h3 {
+  color: white;
+}
+.etusivu {
+  position: absolute;
 }
 
+.teksti {
+  position: relative;
+  top: 10%;
+  left: 3%;
+
+  width: 25%;
+
+  float:left;
+}
+
+.teksti1 {
+  position: relative;
+  top: 10%;
+  right: 3%;
+
+  width: 40%;
+  height: 5%;
+  overflow: inherit;
+
+  float:right;
+  font-size: 24px;
+}
+
+.nappi {
+  position: relative;
+  top: 19%;
+  left: 3%;
+
+  border: none;
+  width: 18%;
+  height: 8%;
+  font-size: 155%;
+  padding: 8px;
+  border-radius: 12px;
+
+  background-color:#FF6600;
+  color: white;
+}
+
+.nappi:active {
+  border-style: solid;
+  border-color: white;
+}
+
+.miks {
+  color:white;
+  position: relative;
+  top: 25%;
+  left: 3%;
+  width: 25%;
+  height: 20%;
+  font-size: 26px;
+}
+.teksti2 {
+  position: relative;
+  top: 15%;
+  right: 3%;
+  width: 40%;
+  height: 30%;
+  overflow: inherit;
+
+  float: right;
+  font-size: 24px;
+}
+.palvelut {
+  position: relative;
+  top: 47%;
+  left: 3%;
+  font-size: 67px;
+  color: black
+}
+body {
+  background-color: darkgray;
+}
+.Palvelut1 {
+position: relative;
+top: 43%;
+left: 3%;
+font-size: 24px;
+}
 </style>
 </head>
 <body>
-
 <ul>
     <h1 class="title">JyCon</h1>
   <li><a href="#Etusivu">Etusivu</a></li>
@@ -72,6 +155,28 @@ body {
   <li><a href="#Yhteystiedot">Yhteystiedot</a></li>
   <li><a href="#Ura">Ura</a></li>
 </ul>
-
+  <div class="etusivu">
+    <h1 class="teksti">Kasvata ideasi tuotteeksi kanssamme.</h1>
+<h3 class="teksti1">Jycon Oy – Nuorten osaajien ohjelmisto- ja testausstudio – laatua, ketteryyttä ja uutta ajattelua.
+  Ketterää ohjelmistokehitystä ja laadunvarmistusta startupeille ja pk-yrityksille.
+  Nuoret osaajat – raikkaat ideat – kilpailukykyiset ratkaisut. Teemme työtä energialla ja intohimolla – yhdistäen oppimisen ja ammattimaisuuden.
+  Tuloksena ovat toimivat, testatut ja nykyaikaiset digitaaliset ratkaisut.</h3>
+  </div>
+  <button class="nappi" type="button">Ota yhteyttä</button>
+  <div class="miks">
+    <p>Miksi JyCon?</p>
+    <li>Joustava ja ketterä tiimi</li>
+    <li>Nuorten osaajien tuore näkökulma</li>
+    <li>Jatkuvaa oppimista ja kehittymistä</li>
+    <li>Ei perinteinen konstullitalo
+      - vaan kasvualusta tulevaisuuden osaajille!
+    </li>
+  </div>
+  <h3 class="teksti2">JyCon on nuorten osaajien ohjelmisto- ja testausstudio, joka yhdistää tuoreen ajattelun ja ammattilaisohjauksen.
+    Toteutamme ketteriä ja kustannustehokkaita digiratkaisuja, web-sovelluksia ja testauspalveluita startupeille ja pk-yrityksille, jotka arvostavat laatua ja nopeaa toteutusta.</h3>
+    <h1 class="palvelut">Palvelut</h1>
+    <h3 class="Palvelut1">moderneja, testattuja ja helppokäyttöisiä digitaalisia ratkaisuja.
+      Jycon tarjoaa ohjelmistokehitys- ja testauspalveluita startupeille ja pk-yrityksille, jotka haluavat skaalautuvan ja laadukkaan lopputuloksen kustannustehokkaasti.
+      Kun palkkaat meidät, saat tiimin, joka yhdistää nuoren energian ja ammattilaisohjauksen – ketterästi, laadukkaasti ja läpinäkyvästi.</h3>
 </body>
 </html>

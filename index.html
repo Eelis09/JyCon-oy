@@ -1,6 +1,8 @@
 <html>
 <head>
     <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JyCon oy</title>
 <style>
 html {
@@ -250,10 +252,14 @@ margin-top: 3%;
   font-size: 30px;
   width: 50%;
 }
+input {
+margin-left: 700px;
+}
 
 </style>
 </head>
 <body>
+
 <ul>
     <h1 class="title">JyCon</h1>
   <li><a href="#Etusivu">Etusivu</a></li>
@@ -378,6 +384,17 @@ margin-top: 3%;
             info@jycon.fi
             <br>
             040 123 4567</h2>
+            <form action="info@jycon.fi">
+              <label for="etunimi">Etunimi:</label>
+              <input type="text" id="input" name="Etunimi"><br><br>
+              <label for="Sukunimi">Sukunimi</label>
+              <input type="text" id="input" name="Sukunimi"><br><br>
+              <label for="sähköposti">Sähköposti</label>
+              <input type="text" id="input" name="Sähköposti"><br><br>
+              <label for="puhelinnumero">Puhelinnumero</label>
+              <input type="text" id="input" name="Puhelinnumero"><br><br>
+              <input type="submit" value="Lähetä">
+            </form>
           </div>
       </body>
 </html>

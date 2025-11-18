@@ -252,14 +252,23 @@ margin-top: 3%;
   font-size: 30px;
   width: 50%;
 }
-input {
-margin-left: 700px;
+.formi {
+  position: absolute;
+margin-left: 650px;
+}
+.Lähetä {
+width: 100px;
+height: 50px;
+}
+.ura {
+  font-size: 67px;
+  padding-left: 4%;
+  -webkit-text-stroke: 2px #FF6600;
 }
 
 </style>
 </head>
 <body>
-
 <ul>
     <h1 class="title">JyCon</h1>
   <li><a href="#Etusivu">Etusivu</a></li>
@@ -372,8 +381,19 @@ margin-left: 700px;
           </h2>
           <h1 class="yhteystiedot">Yhteystiedot</h1>
           <div class="yhteydenottolomake">
-          <h2>Ota yhteyttä
+          <h2 class="yhteystiedot2">Ota yhteyttä
           <br><br>
+          <div class="formi">
+            <label for="etunimi">Etunimi:</label>
+            <input type="text" id="formi" name="Etunimi"><br><br>
+            <label for="Sukunimi">Sukunimi</label>
+            <input type="text" id="formi" name="Sukunimi"><br><br>
+            <label for="sähköposti">Sähköposti</label>
+            <input type="text" id="formi" name="Sähköposti"><br><br>
+            <label for="puhelinnumero">Puhelinnumero</label>
+            <input type="text" id="formi" name="Puhelinnumero"><br><br>
+            <input type="submit" id="lähetä" value="Lähetä"  style="height:50px; width: 300px" />
+          </div>
             Onko sinulla idea, joka tarvitsee teknistä toteutusta?
             Tai projekti, jossa tarvitaan testauksen ammattilaisia?
             <br><br>
@@ -384,17 +404,12 @@ margin-left: 700px;
             info@jycon.fi
             <br>
             040 123 4567</h2>
+            <a href="" class="linkit">LinkedIn</a>
+            <a href="" class="linkit">Instagram</a>
+            <a href="" class="linkit">Facebook</a>
             <form action="info@jycon.fi">
-              <label for="etunimi">Etunimi:</label>
-              <input type="text" id="input" name="Etunimi"><br><br>
-              <label for="Sukunimi">Sukunimi</label>
-              <input type="text" id="input" name="Sukunimi"><br><br>
-              <label for="sähköposti">Sähköposti</label>
-              <input type="text" id="input" name="Sähköposti"><br><br>
-              <label for="puhelinnumero">Puhelinnumero</label>
-              <input type="text" id="input" name="Puhelinnumero"><br><br>
-              <input type="submit" value="Lähetä">
             </form>
           </div>
+          <h1 class="ura">Ura Jyconilla</h1>
       </body>
 </html>

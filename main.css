@@ -192,13 +192,14 @@ html {
   .osaaminen1 {
     width: 60%;
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
   }
   .web {
+    position: relative;
     color: white;
-    font-size: 26px;
+    font-size: 28px;
     margin-left: 19%;
-    margin-top: 4.5%;
+    margin-top: 4%;
   }
   .web1 {
     position: absolute;
@@ -212,13 +213,14 @@ html {
   }
   .web1 h3 {
     color: black;
+    font-size: 17px;
   }
   .word {
     position: absolute;
   color: white;
-  font-size: 26px;
-  margin-left: 63.5%;
-  margin-top: 3%;
+  font-size: 28px;
+  margin-left: 63%;
+  margin-top: 4%;
   }
   .wordpress {
     position: absolute;
@@ -232,19 +234,22 @@ html {
   .wordpress h3 {
     color: black;
     text-align: center;
+    font-size: 17px;
   }
   .koko {
     color: white;
     margin-top: 20%;
-    margin-left: 53%;
+    margin-left: 50%;
     position: absolute;
     width: 50%;
+    font-size: 25px;
   }
   .lista {
     position: relative;
     color: white;
     margin-top: 32.5%;
     margin-left: 6%;
+    font-size: 23px;
   }
   .yhteystiedot {
     font-size: 67px;
@@ -254,29 +259,33 @@ html {
   .yhteydenottolomake {
     background-color: D9D9D9;
     width: 70%;
-    height: 72%;
+    height: 90%;
     margin-left: 15%;
     margin-top: 3%;
     border-radius: 8px;
     overflow: inherit;
   }
   .yhteydenottolomake h2 {
-    font-size: 30px;
+    font-size: 25px;
     width: 50%;
+    margin-left: 3%;
   }
   .formi {
     position: absolute;
     margin-left: 650px;
     width: 250px;
+    margin-bottom: 100px;
   }
+  .formi2 {
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 250px;
+    height: 150px
+   }
   .viesti {
   width: 400px;
   height: 550px;
-  }
-  .ura {
-    font-size: 67px;
-    padding-left: 4%;
-    -webkit-text-stroke: 1.5px #FF6600;
   }
   .linkit {
     position: relative;
@@ -315,18 +324,36 @@ html {
     height: 100px;
   }
   .ura1 {
+    border-radius: 8px;
     background-color: D9D9D9;
-    width: 60%;
-    margin-left: 10%;
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
   }
   .ura1 h3 {
     color: black;
     text-align: center;
+    font-size: 35px;
   }
-  .formi2 {
-   margin-left: 20%;
+  .ura {
+    font-size: 67px;
+    margin-left: 38%;
+    -webkit-text-stroke: 1.5px #FF6600;
+    margin-top: 5%;
   }
   input[type=text] {
-    border: 2px #FF6600;
     border-radius: 2px;
+    padding: 3px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    border: 3px solid #FF6600;
+  }
+  #go-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    background: #FF6600;
+    color: white;
+    margin-left: 5%;
+    border-radius: 4px;
+    padding: 10px 20px;
   }

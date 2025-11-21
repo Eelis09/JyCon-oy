@@ -4,6 +4,12 @@
     <script src="main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JyCon oy</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<style>
+body, h1, h2, h3, h4, h5, h6  {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+</style>
 </head>
   <body>
   <ul>
@@ -57,7 +63,7 @@
           <br><br>
           Dokumentaatio, joka tekee ohjelmistosta hallittavan ja tulevaisuuden kestävä.</h3>
       </div>
-      <div class="palvelu1">
+      <div class="palvelu2">
         <h3>Yhteistyömallit
           Projektipohjainen hinnoittelu
           Selkeä hinta ja aikataulu – sopii kertaluontoisiin projekteihin, kuten verkkosivustoihin ja sovelluskehitykseen
@@ -121,16 +127,11 @@
           <h2 class="yhteystiedot2">Ota yhteyttä
           <br><br><form action="send.php" method="POST">
           <div class="formi">
-            <label for="etunimi">Etunimi:</label><br>
-            <input type="text" id="formi" name="etunimi"><br>
-            <label for="Sukunimi">Sukunimi:</label><br>
-            <input type="text" id="formi" name="sukunimi"><br>
-            <label for="sähköposti">Sähköposti:</label><br>
-            <input type="text" id="formi" name="sposti"><br>
-            <label for="puhelinnumero">Puhelinnumero:</label><br>
-            <input type="text" id="formi" name="puhelinnumero"><br>
-            <label for="viesti">Kirjoita viesti:</label> <br>
-            <textarea id="tekstialue" name="tekstialue" rows="4" cols="50"></textarea>
+            <input type="text" id="formi" name="etunimi" placeholder="Etunimi" width="250px" height="150px"><br><br>
+            <input type="text" id="formi" name="sukunimi" placeholder="Sukunimi"><br><br>
+            <input type="text" id="formi" name="sposti" placeholder="Sähköposti"><br><br>
+            <input type="text" id="formi" name="puhelinnumero" placeholder="Puhelinnumero"><br><br>
+            <textarea id="tekstialue" name="tekstialue" rows="4" cols="50" placeholder="Kirjoita viesti"></textarea>
             <input type="submit" value="Lähetä">
           </form>
             <a class="linkki1" href="https://www.linkedin.com/" target="_blank">
@@ -159,14 +160,13 @@
           <div class="ura1">
             <h3>Haluatko kasvaa ohjelmistoalan ammattilaiseksi?
             Jycon tarjoaa mahdollisuuden oppia oikeissa asiakasprojekteissa.</h3>
-            <div class="formi2"><label for="etunimi">Etunimi:</label><br>
-            <input type="text" id="formi" name="etunimi"><br>
-            <label for="Sukunimi">Sukunimi:</label><br>
-            <input type="text" id="formi" name="sukunimi"><br>
-            <label for="sähköposti">Sähköposti:</label><br>
-            <input type="text" id="formi" name="sposti"><br>
-            <label for="puhelinnumero">Puhelinnumero:</label><br>
-            <input type="text" id="formi" name="puhelinnumero"><br>
+            <form action="send.php" method="post">
+            <div class="formi2">
+            <input type="text" id="formi" name="etunimi" placeholder="Etunimi"><br><br>
+            <input type="text" id="formi" name="sukunimi" placeholder="Sukunimi"><br><br>
+            <input type="text" id="formi" name="sposti" placeholder="Sähköposti"><br><br>
+            <input type="text" id="formi" name="puhelinnumero" placeholder="Puhelinnumero"><br>
+          </form>
           </div>
       </body>
 </html>

@@ -113,7 +113,7 @@ html {
     left: 3%;
     width: 25%;
     height: 20%;
-    font-size: 26px;
+    font-size: 23px;
   }
   .teksti2 {
     position: relative;
@@ -124,7 +124,7 @@ html {
     overflow: inherit;
   
     float: right;
-    font-size: 24px;
+    font-size: 23px;
   }
   .palvelut {
     position: relative;
@@ -142,7 +142,7 @@ html {
     position: relative;
     top: 28%;
     left: 5%;
-    font-size: 24px;
+    font-size: 23px;
     height: 30%;
     width: 80%;
     overflow:hidden;
@@ -151,7 +151,25 @@ html {
     position: relative;
     background-color: B1AEAE;
     width: 20%;
-    height: 43%;
+    height: 50%;
+    float: left;
+    margin-top: 8%;
+    margin-left: 4%;
+    text-align: center;
+    overflow-x: inherit;
+    color: black;
+    overflow: hidden;
+  }
+  
+  .palvelu1 h3 {
+    color: black;
+    font-size: 17px;
+  }
+  .palvelu2 {
+    position: relative;
+    background-color: B1AEAE;
+    width: 20%;
+    height: 50%;
     float: left;
     margin-top: 8%;
     margin-left: 4%;
@@ -159,9 +177,9 @@ html {
     overflow-x: inherit;
     color: black;
   }
-  
-  .palvelu1 h3 {
+  .palvelu2 h3 {
     color: black;
+    font-size: 17px;
   }
   .Osaaminen {
     position: relative;
@@ -250,7 +268,6 @@ html {
     position: absolute;
     margin-left: 650px;
     width: 250px;
-    height: 50px;
   }
   .viesti {
   width: 400px;
@@ -307,5 +324,9 @@ html {
     text-align: center;
   }
   .formi2 {
-   
+   margin-left: 20%;
+  }
+  input[type=text] {
+    border: 2px #FF6600;
+    border-radius: 2px;
   }
